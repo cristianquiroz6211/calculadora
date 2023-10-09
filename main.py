@@ -30,6 +30,7 @@ class Example(QWidget):
         self.current = ''
 
         self.setWindowTitle(self.title)
+        self.setWindowIcon(QIcon('cal.svg'))
         self.setGeometry(self.left, self.top, self.width, self.height)
 
         # Establecer el ícono
